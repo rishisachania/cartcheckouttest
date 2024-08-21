@@ -3,6 +3,12 @@ import Prices._
 
 object CheckoutHelper {
   def calculateTotal(items: List[String]): BigDecimal = {
-    0.0
+    items.foldLeft(BigDecimal(0)) { (total, item) =>
+      item.toLowerCase match {
+        case "apple" => total + applePrice
+        case "orange" => total + orangePrice
+        case _ => total
+      }
+    }
   }
 }
