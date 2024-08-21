@@ -1,0 +1,25 @@
+.*
+
+# sbt specific
+target/
+project/target/
+project/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# IntelliJ IDEA specific
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# MacOS specific
+.DS_Store
+
+# General
+*.log
+*.tmp
+*.swp
