@@ -1,7 +1,7 @@
 import org.scalatest.funsuite.AnyFunSuite
 
 class CheckoutTest extends AnyFunSuite {
-
+  
   test("calculateTotal should return 0 for an empty list") {
     ???
   }
